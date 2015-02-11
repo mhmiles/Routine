@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Event" representedClassName="ROUEvent" syncable="YES">
+        <attribute name="completed" attributeType="Boolean" syncable="YES"/>
+        <attribute name="timestamp" attributeType="Date" syncable="YES"/>
+        <relationship name="task" maxCount="1" deletionRule="No Action" destinationEntity="Task" inverseName="events" inverseEntity="Task" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="timestamp"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="Task" representedClassName="ROUTask" syncable="YES">
+        <attribute name="interval" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="500" syncable="YES"/>
+        <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="repititions" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="startTime" attributeType="Date" minDateTimeInterval="0" minValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="validDays" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Event" inverseName="task" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="-63" positionY="0" width="128" height="88"/>
+        <element name="Task" positionX="151" positionY="-151" width="128" height="135"/>
+    </elements>
+</model>

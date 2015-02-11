@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>404290F8-7051-4FB4-B583-C65EFBDF522F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Routine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>90E670EA3C267115B6EEFA5B2966B0D7F26E65D1</key>
+		<string>https://github.com/mhmiles/Routine</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Routine.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>90E670EA3C267115B6EEFA5B2966B0D7F26E65D1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mhmiles/Routine</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>90E670EA3C267115B6EEFA5B2966B0D7F26E65D1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90E670EA3C267115B6EEFA5B2966B0D7F26E65D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Routine</string>
+		</dict>
+	</array>
+</dict>
+</plist>
